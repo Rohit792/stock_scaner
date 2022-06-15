@@ -4,13 +4,12 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application that follows the
-[simple app state management
-tutorial](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple).
+ Before running the project, perform "flutter pub get". 
+ Screen shots are added in the code under "/stok_scanner/screenShots" path.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ To run the application in the debug mode, kindly add launch.json file then provide the path of main file "lib/env/main_dev.dart"
+
+ To run the application from the terminal, fire "flutter run lib/env/main_dev.dart" command on vccode terminal.
 
 ## Assets
 

@@ -4,6 +4,7 @@ import 'package:stock_scan_parser/core/network/base_response.dart';
 import 'package:stock_scan_parser/features/detail/presentation/detail_screen.dart';
 import 'package:stock_scan_parser/features/home/presentation/bloc/home_bloc.dart';
 import 'package:stock_scan_parser/features/home/presentation/widgets/seperator.dart';
+import 'package:stock_scan_parser/generated/l10n.dart';
 import 'package:stock_scan_parser/injection_container.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -108,7 +109,7 @@ class HomeScreen extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.all(18.0),
-                child: Text("Loading...",
+                child: Text(S.current.Loading,
                     style: TextStyle(
                         color: Theme.of(context).secondaryHeaderColor)),
               ),

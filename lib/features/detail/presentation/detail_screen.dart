@@ -1,5 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:stock_scan_parser/generated/l10n.dart';
 import 'package:stock_scan_parser/utils/dialog_utility.dart';
 import 'package:stock_scan_parser/utils/enum.dart';
 
@@ -66,7 +67,7 @@ class DetailScreen extends StatelessWidget {
                                               } else {
                                                 Utils.showAppMessage(
                                                     context,
-                                                    "No data to show.",
+                                                    S.current.no_data_available,
                                                     MessageDurationType.medium);
                                               }
                                             }),

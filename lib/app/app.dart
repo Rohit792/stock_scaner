@@ -4,11 +4,10 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:form_builder_validators/localization/l10n.dart';
 import 'package:stock_scan_parser/app/app_routes.dart';
 import 'package:stock_scan_parser/features/splash/presentation/pages/splash_screen.dart';
+import 'package:stock_scan_parser/generated/l10n.dart';
 
 import 'package:stock_scan_parser/src/core/app_localizations.dart';
 import 'package:stock_scan_parser/utils/theme_helper.dart';
-
-// import 'package:google_fonts/google_fonts.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -40,7 +39,7 @@ class MyApp extends StatelessWidget {
       localizationsDelegates: const [
         // THIS CLASS WILL BE ADDED LATER
         // A class which loads the translations from JSON files
-        AppLocalizations.delegate,
+        S.delegate,
         // Built-in localization of basic text for Material widgets
         GlobalMaterialLocalizations.delegate,
         // Built-in localization for text direction LTR/RTL

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stock_scan_parser/generated/l10n.dart';
 
 class ErrorScreen extends StatelessWidget {
   final String? errorMessage;
@@ -8,7 +9,7 @@ class ErrorScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        errorMessage ?? "No data available",
+        errorMessage ?? S.current.no_data_available,
         style: Theme.of(context).textTheme.titleMedium,
       ),
     );
