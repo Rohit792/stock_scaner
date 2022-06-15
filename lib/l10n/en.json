@@ -1,0 +1,11 @@
+{
+    "app_name":"Stock Scan Parser",
+
+    "dialog_ok":"ok",
+    "dialog_yes":"yes",
+    "dialog_no":"no",
+    "please_wait":"Please wait",
+    "data_loaded_successfully":"Data loaded successfully",
+    "something_went_wrong":"Something went wrong"
+
+}
